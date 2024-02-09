@@ -27,8 +27,6 @@
     padding: none;
     border: none;
 }
-body {
-}
 header{
     border: 2PX solid rgb(47, 0, 255);
     display: flex;
@@ -60,10 +58,18 @@ header{
     align-items: center;
     justify-content: center;
 }
+.search_box {
+    border: 2px solid #6b6b6b;
+    width: 50vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
 #header_search {
-    border: 2px solid lime;
-    width: 40vw;
-    height: 7vh;
+    border: transparent;
+    width: 47vw;
+    height: 8vh;
     border-radius: 20px;
 }
 .for_header_column_right {
@@ -81,4 +87,7 @@ header{
 }
 .logo_list {
     max-height: 60px;
+}
+.logo_arredores {
+    width: 91px;
 }
