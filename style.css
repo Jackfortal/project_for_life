@@ -32,7 +32,7 @@ body {
 header{
     border: 2PX solid rgb(47, 0, 255);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100vw;
     height: 30vh;
@@ -40,7 +40,7 @@ header{
 /* primeira parte  */
 .nv_gnb_logo_container {
     border: 2px solid red;
-    display: flex;
+    display: flexgi;
     justify-content: center;
     align-items: center;
 }
